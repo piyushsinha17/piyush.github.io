@@ -5,11 +5,22 @@
 *{
     margin: 0%;
     padding: 0;
-
+    
+}
+.header-area{
+    display: flex;
+    justify-content: space-around;
 }
 .navbar-brand{
     padding: 10px ;
+    text-transform: uppercase;
+
+ 
+    font-size: 25px;
+    font-weight: bold;
+  
 }
+
 .bar{
    text-transform: uppercase;
   
@@ -17,13 +28,63 @@
 
 }
 .bar a{
+    font-size: 20px;
     color: black;
     text-transform: uppercase;
    text-decoration: none;
-   padding: 40px;
+   padding: 20px;
     font-weight: bold;
  
  }
 .main-menu{
-    padding: 1% 5%;
+    background-color: #d8e4ff;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+.btn{
+    box-sizing: border-box;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 20px;
+font-weight: bold;
+margin: 25px;
+margin-left: 0%;
+border: 2px solid #45d8f9;
+background-color: #45d8f9;
+border-radius: 5px;
+}
+
+.btn-cn{
+
+    box-sizing: border-box;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+
+    background-color: transparent;
+font-weight: bold;
+margin: 25px;
+margin-left: 0%;
+border: 2px solid #45d8f9;
+border-radius: 5px;
+}
+
+.btn-cn:hover{
+    background-color: #45d8f9 ;
+}
+
+.btn:hover{
+    box-sizing: border-box;
+    background-color: transparent;  
+    border: 2px solid #45d8f9;
+border-radius: 5px; 
+}
+
+.title-text{
+    padding-top: 150px;
+    font: normal bold 50px/100px;
+}
+.logo{
+text-decoration: none;
 }
