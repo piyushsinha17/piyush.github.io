@@ -1,0 +1,29 @@
+/* import fonts */
+
+@import url(./fonts.css);
+
+*{
+    margin: 0%;
+    padding: 0;
+
+}
+.navbar-brand{
+    padding: 10px ;
+}
+.bar{
+   text-transform: uppercase;
+  
+   font-weight: bold;
+
+}
+.bar a{
+    color: black;
+    text-transform: uppercase;
+   text-decoration: none;
+   padding: 40px;
+    font-weight: bold;
+ 
+ }
+.main-menu{
+    padding: 1% 5%;
+}
